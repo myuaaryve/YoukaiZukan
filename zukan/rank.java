@@ -26,16 +26,16 @@ public class rank {
         }
     }
 
-    public static void ability(){
+    public void ability(){
         // 能力順位を表示
-        System.out.println("1位:饕餮 \n2位: \n3位");
+        System.out.println("1位:饕餮 \n2位:烏天狗 \n3位:九尾");
     }
-    public static void intelligence(){
+    public void intelligence(){
         // 知能順位を表示
-        System.out.println("1位: \n2位 \n3位");
+        System.out.println("1位:烏天狗 \n2位:九尾 \n3位:猫又");
     }
-    public static void danger(){
+    public void danger(){
         //　危険度順位を表示
-        System.out.println("1位: \n2位 \n3位 \n4位");
+        System.out.println("1位:饕餮 \n2位:九尾 \n3位:烏天狗 \n4位:猫又");
     }
 }
