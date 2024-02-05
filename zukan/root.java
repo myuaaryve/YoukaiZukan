@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 public class root{
-    public static void move(String[] args){
+    public static void main(String[] args){
         try{
             Scanner stdIn = new Scanner(System.in);
             System.out.print("進みたい項目を選んでください");
