@@ -10,10 +10,16 @@ public class rank {
             Integer con = stdIn.nextInt();
             if (con==1){
                 System.out.println("能力の強さ");
+                // 1を入力したらoverviewに移動
                 itiran.overview();
             }
             if(con==2){
                 System.out.println("知性の高さ");
+                // 2を入力したらintelligenceに移動
+            }
+            if(con==4){
+                System.out.println("危険度ランキング");
+                // 3を入力したらdangerに移動
             }
         }catch(ArithmeticException e){
             System.out.println("数字を入力してください!");
@@ -21,9 +27,15 @@ public class rank {
     }
 
     public static void ability(){
+        // 能力順位を表示
         System.out.println("1位:饕餮 \n2位: \n3位");
     }
     public static void intelligence(){
+        // 知能順位を表示
         System.out.println("1位: \n2位 \n3位");
+    }
+    public static void danger(){
+        //　危険度順位を表示
+        System.out.println("1位: \n2位 \n3位 \n4位");
     }
 }
