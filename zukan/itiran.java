@@ -16,22 +16,22 @@ public class itiran extends memo{
             if (con==1){
                 System.out.println("九尾");
                 // 1を入力したらkyubiに移動
-                kyubi.overview();
+                kyubi.kyubi();
             }
             if(con==2){
                 System.out.println("烏天狗");
                 // 2を入力したらkarasutenguに移動
-                karasutengu.overview();
+                karasutengu.karasutengu();
             }
             if (con==3) {
                 System.out.println("饕餮");
                 // 3を入力したらtoutetuに移動
-                toutetu.overview();
+                toutetu.toutetu();
             }
             if (con==4){
                 System.out.println("猫又");
                 // 4を入力したらnekomataに移動
-                nekomata.overview();
+                nekomata.nekomata();
             }
         }catch(ArithmeticException e){
             // 数字以外が入力されると例外処理
