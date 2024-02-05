@@ -32,18 +32,17 @@ public class Rank {
         // 能力順位を表示
         System.out.println("1位:饕餮 \n2位:烏天狗 \n3位:九尾\n4位:猫又");
         Itiran itiran = new Itiran();
-        itiran.back();
+     
     }
     public void intelligence(){
         // 知能順位を表示
         System.out.println("1位:烏天狗 \n2位:九尾 \n3位:猫又\n4位:饕餮");
         Itiran itiran = new Itiran();
-        itiran.back();
+       
     }
     public void danger(){
         //　危険度順位を表示
         System.out.println("1位:饕餮 \n2位:九尾 \n3位:烏天狗 \n4位:猫又");
         Itiran itiran = new Itiran();
-        itiran.back();
     }
 }
