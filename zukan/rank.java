@@ -1,8 +1,8 @@
 package zukan;
 import java.util.Scanner;
 
-public class rank {
-    public static void ranking(){
+public class Rank {
+    public void ranking(){
         try{
             Scanner stdIn = new Scanner(System.in);
             System.out.println("見たいランキングを選んでください");
@@ -10,8 +10,7 @@ public class rank {
             Integer con = stdIn.nextInt();
             if (con==1){
                 System.out.println("能力の強さ");
-                // 1を入力したらoverviewに移動
-                itiran.overview();
+                
             }
             if(con==2){
                 System.out.println("知性の高さ");

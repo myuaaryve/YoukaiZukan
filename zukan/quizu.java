@@ -2,10 +2,10 @@ package zukan;
 
 import java.util.Scanner;
 
-public class quizu {
-    public static void mondai(){
+public class Quizu {
+    public void mondai(){
         System.out.println("クイズ開始!");
-        quizu riddle = new quizu();
+        Quizu riddle = new Quizu();
         riddle.riddle();
     }
 public void riddle(){

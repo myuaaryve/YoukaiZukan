@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
-public class root{
+public class Root{
     public static void main(String[] args){
         try{
             Scanner stdIn = new Scanner(System.in);
@@ -13,14 +13,18 @@ public class root{
             
             if (con==1){
                 System.out.println("妖怪図鑑");
+                Itiran itiran = new Itiran();
                 itiran.overview();
             }
             if(con==2){
                 System.out.println("妖怪の強さランキング");
+                Rank rank = new Rank();
                 rank.ranking();
+                
             }
             if(con==3){
                 System.out.println("妖怪クイズ");
+                Quizu quizu = new Quizu();
                 quizu.mondai();
             }
         }catch(InputMismatchException e){

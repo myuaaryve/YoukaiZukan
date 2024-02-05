@@ -1,12 +1,8 @@
 package zukan;
 import java.util.Scanner;
 
-public class itiran extends memo{
-    public static void overview(){
-        itiran kyubi = new itiran();
-        itiran karasutengu = new itiran();
-        itiran toutetu = new itiran();
-        itiran nekomata = new itiran();
+public class Itiran{
+    public void overview(){
         try{
             Scanner stdIn = new Scanner(System.in);
             System.out.print("見たい妖怪を選んでください");
@@ -16,21 +12,25 @@ public class itiran extends memo{
             if (con==1){
                 System.out.println("九尾");
                 // 1を入力したらkyubiに移動
+                Memo kyubi = new Memo();
                 kyubi.kyubi();
             }
             if(con==2){
                 System.out.println("烏天狗");
                 // 2を入力したらkarasutenguに移動
+                Memo karasutengu = new Memo();
                 karasutengu.karasutengu();
             }
             if (con==3) {
                 System.out.println("饕餮");
                 // 3を入力したらtoutetuに移動
+                Memo toutetu = new Memo();
                 toutetu.toutetu();
             }
             if (con==4){
                 System.out.println("猫又");
                 // 4を入力したらnekomataに移動
+                Memo nekomata = new Memo();
                 nekomata.nekomata();
             }
         }catch(ArithmeticException e){
